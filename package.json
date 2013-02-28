@@ -1,0 +1,25 @@
+{
+    "name": "q_helpers",
+    "version": "0.0.1",
+    "description": "Helper library to make it easier to use Q.  Note, require AFTER Q.",
+    "homepage": "http://usablehq.com",
+    "author": {
+        "name": "Usablehq Ltd",
+        "url": "http://usablehq.com"
+    },
+    "private" : true
+    ,
+    "dependencies": {
+        "underscore": "1.3.1"
+    },
+    "main": "./lib/q_helpers",
+    "directories": {
+        "lib": "./lib"
+    },
+    "scripts": {
+        "install": "make"
+    },
+    "engines": [
+        "node >= 0.6.0"
+    ]
+}
